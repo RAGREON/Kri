@@ -23,8 +23,6 @@ a{
     background-color:rgb(231, 232, 237);
     padding: 15px;
     box-shadow: 0 0 10px grey;
-
-}
-.hi{
-    
+    display: flex;
+    justify-content: space-around;
 }
