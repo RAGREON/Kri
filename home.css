@@ -20,20 +20,9 @@
     background-color:rgb(244, 10, 10);
     padding: 15px;
     box-shadow: 0 0 10px grey;
-
+    display: flex;
+    justify-content: space-around;
 }
-.Navbar li{
-    float:left;
-    list-style: none;
-    margin: 3px 3px;
+.hi{
     
-
-}
-.Navbar li a{
-    padding: 3px 3px;
-    text-decoration: none;
-    color: white;
-}
-.Navbar ul{
-    overflow: auto;
 }
