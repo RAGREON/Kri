@@ -1,8 +1,5 @@
-a{
-    text-decoration: none;
-    color: black;
-}
-.regbtn{
+
+/* .regbtn{
 
     background-color: rgb(244, 245, 249);
     border: 2px solid rgb(92, 92, 230);
@@ -18,13 +15,25 @@ a{
 .regbtn:active{
     background-color: lightskyblue;
     border:2px solid lightskyblue;
-}
+} */
 .Navbar{
-    background-color:rgb(231, 232, 237);
+    background-color:rgb(244, 10, 10);
     padding: 15px;
     box-shadow: 0 0 10px grey;
 
 }
-.hi{
+.Navbar li{
+    float:left;
+    list-style: none;
+    margin: 3px 3px;
     
+
+}
+.Navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.Navbar ul{
+    overflow: auto;
 }
