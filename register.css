@@ -1,0 +1,9 @@
+.container1{
+    background: aqua;
+    display: flex;
+    height: 50vh;
+    
+}
+body{
+    padding: 60px 40px;
+}

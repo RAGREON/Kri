@@ -1,28 +1,56 @@
 
-/* .regbtn{
 
-    background-color: rgb(244, 245, 249);
-    border: 2px solid rgb(92, 92, 230);
-    padding: 7px;
-    border-radius: 17px;
-}
-.regbtn:hover{
-    color:white;
-    background-color: rgb(90, 90, 238);
-    
- 
-}
-.regbtn:active{
-    background-color: lightskyblue;
-    border:2px solid lightskyblue;
-} */
-.Navbar{
-    background-color:rgb(244, 10, 10);
-    padding: 15px;
-    box-shadow: 0 0 10px grey;
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+ }
+ body{
+    background: url(images/7.jpg) no-repeat;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+
+ }
+ header{
+    width:100%;
+    height:75px;
     display: flex;
-    justify-content: space-around;
-}
-.hi{
-    
-}
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    background: rgba(0,0,0,0.2);
+
+ }
+ .logo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+
+ }
+ nav li{
+    display: inline;
+    list-style: none;
+    padding: 0px 20px;
+    margin-right: 40px;
+  
+
+
+ }
+ a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+ }
+ nav li a:hover{
+    color:#fd5e53;
+    transition: all 0.4s ease 0s;
+
+ }
+ 
