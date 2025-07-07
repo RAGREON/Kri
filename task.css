@@ -1,0 +1,147 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: none;
+    
+    height: 400px;
+    width: 45%;
+
+
+}
+.container1{
+    width:50%;
+    display: flex;
+    
+    height: 100%;
+    flex-direction: row;
+}
+.item1{
+    
+    height: 100%; 
+    width:100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.i1{
+    background-color: salmon;
+    height: 50%;
+    width: 100%;
+    transition: height 0.95s;
+}
+.i1:hover{
+    height: 70%;
+    cursor:pointer;
+
+}
+.i2{
+    display: flex;
+    flex-direction: row;
+    height: 170%;
+    width: 100%;
+}
+.i22{
+    background-color: rgb(47, 255, 0);
+    height: 100%;
+    width: 100%;
+}
+.i23{
+     background-color: rgb(20, 176, 237);
+    height: 100%;
+    width: 100%
+
+}
+
+.item11{
+    
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.k{
+display: flex;
+flex-direction: row;
+height: 100%;
+width: 100%;
+}
+.k1{
+    background-color: rgb(238, 11, 208);
+    height: 100%;
+    width: 100%
+}
+.k2{
+    background-color: rgb(169, 7, 245);
+    height: 100%;
+    width: 100%
+}
+.s{
+    background-color: bisque;
+    height: 15%;
+width: 100%;
+transition: height 0.95s;
+}
+.s:hover{
+    height:20%;
+    cursor:pointer;
+}
+.container2{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+.item2{
+   
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+.item21{
+display: flex;
+flex-direction: row;
+height: 100%;
+width: 100%;
+}
+.r1{
+    background-color: rgb(125, 237, 211);
+    height: 100%;
+    width: 100%
+}
+.r2{
+    background-color: rgb(245, 7, 7);
+    height: 100%;
+    width: 40%
+}
+.item22{
+background-color: rgb(238, 255, 7);
+height: 100%;
+width: 100%;
+}
+.item3{
+    
+   
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+   
+}
+.item31{
+background-color: rgb(64, 189, 239);
+height: 100%;
+width: 100%;
+}
+.item32{
+background-color: blue;
+height: 100%;
+width: 100%;
+}
+body{
+
+   
+    padding: 60px ;
+}

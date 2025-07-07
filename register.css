@@ -1,9 +1,51 @@
-.container1{
-    background: aqua;
-    display: flex;
-    height: 50vh;
+body {
+
+    color: white;
+    background-image: url(images/3.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+
+  .form-title {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .form-container {
+    width: 30%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #a1aaae;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  fieldset {
+    border: 2px solid gray;
+    padding: 20px;
+  }
+
+  legend {
     
-}
-body{
-    padding: 60px 40px;
-}
+    padding: 0 10px;
+  }
+
+  label {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 200px;
+    padding: 4px;
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
